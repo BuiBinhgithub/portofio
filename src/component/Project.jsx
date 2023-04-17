@@ -26,7 +26,7 @@ const Projects = () => {
                                 binhbui portolio
                             </span>
                             <div className='pt-8 text-center'>
-                                <a href="/" >
+                                <a target='_blank' href="https://github.com/BuiBinhgithub/portofio" >
                                     <button className='hover:scale-110 duration-200 text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                                 </a>
                             </div>
@@ -41,10 +41,10 @@ const Projects = () => {
                                 weather app
                             </span>
                             <div className='pt-8 text-center'>
-                                <a href="https://weather-app-lac-eight.vercel.app" >
+                                <a target='_blank' href="https://weather-app-lac-eight.vercel.app" >
                                     <button className='hover:scale-110 duration-200 text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                                 </a>
-                                <a href="https://github.com/BuiBinhgithub/weatherApp" >
+                                <a target='_blank' href="https://github.com/BuiBinhgithub/weatherApp" >
                                     <button className='hover:scale-110 duration-200 text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                                 </a>
                             </div>
