@@ -59,7 +59,7 @@ const Projects = () => {
                                 w3-template
                             </span>
                             <div className='pt-8 text-center'>
-                                <a href="https://github.com/BuiBinhgithub/w3-template" >
+                                <a target='_blank' href="https://github.com/BuiBinhgithub/w3-template" >
                                     <button className='hover:scale-110 duration-200 text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                                 </a>
                             </div>
