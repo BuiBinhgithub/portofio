@@ -61,3 +61,7 @@
             hsla(301, 51%, 73%, 0.8)) !important;
 
 }
+
+.responsive-hidden{
+    overflow-x: hidden;
+}

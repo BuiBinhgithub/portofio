@@ -9,13 +9,14 @@ import Angular from '../assets/angualr.png';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
+import '../index.css'
 
 const Skills = () => {
     useEffect(() => {
         AOS.init();
     }, []);
     return (
-        <div name="skills" className='w-full skills bg-[#0a192f] text-gray-300'>
+        <div name="skills" className='w-full skills bg-[#0a192f] text-gray-300 responsive-hidden'>
             {/* container */}
             <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-between w-full h-full'>
                 <div>

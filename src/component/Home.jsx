@@ -3,6 +3,7 @@ import AOS from 'aos';
 import '../index.css'
 import { useEffect, useState } from 'react';
 import { Link } from 'react-scroll'
+import '../index.css'
 
 const Home = () => {
     const [show, setShow] = useState(false)
@@ -15,7 +16,7 @@ const Home = () => {
         })
     }, [])
     return (
-        <div name="home" className='w-full h-screen bg-[#0a192f]'>
+        <div name="home" className='w-full h-screen bg-[#0a192f] responsive-hidden'>
             {/* container */}
             <div className='max-w-[1000px] mx-auto px-8  flex flex-col justify-center h-full home'>
                 <p className='text-[#FD81A6] font-semibold'>Hi, my name is</p>
