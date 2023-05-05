@@ -58,8 +58,7 @@
 .content-div:hover {
     background-image: linear-gradient(to right,
             rgba(219, 143, 201, 0.8),
-            hsla(301, 51%, 73%, 0.8)) !important;
-
+            hsla(300, 23%, 77%, 0.8)) !important;
 }
 
 .responsive-hidden{

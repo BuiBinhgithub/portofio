@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Logo from '../assets/logo2.png'
 import { FaBars, FaTimes, FaGithub, FaLinkedin, FaFacebook, } from 'react-icons/fa'
-import { HiOutlineMail } from "react-icons/hi";
+import { ImProfile } from 'react-icons/im'
 import { BsFillPersonLinesFill } from 'react-icons/bs'
 import { Link } from 'react-scroll'
 // import '../index.css'
@@ -100,9 +100,9 @@ const Navbar = () => {
                         </a>
                     </li>
 
-                    <li className="bg-red-500 w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300">
-                        <a target="_blank" className="flex justify-between items-center w-full text-gray-300">
-                            Email <HiOutlineMail size={30} />
+                    <li className="bg-[#00b14f] w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300">
+                        <a href="https://www.topcv.vn/xem-cv/Bl8FAgJTVQFbVVtXA1VWBQIJWgIGAlVQBlIAXAb7ca" target="_blank" className="flex justify-between items-center w-full text-gray-300">
+                            MyCV <ImProfile size={30} />
                         </a>
                     </li>
                 </ul>
