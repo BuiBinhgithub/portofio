@@ -100,7 +100,7 @@ const Navbar = () => {
                         </a>
                     </li>
 
-                    <li className="bgk-[#00b14f] w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300">
+                    <li className="bg-[#00b14f] w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300">
                         <a href="https://www.topcv.vn/xem-cv/Bl8FAgJTVQFbVVtXA1VWBQIJWgIGAlVQBlIAXAb7ca" target="_blank" className="flex justify-between items-center w-full text-gray-300">
                             MyCV <ImProfile size={30} />
                         </a>
